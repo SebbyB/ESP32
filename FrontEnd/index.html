@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESPindex</title>
+    <!-- Version and Author Information -->
+    <meta name="author" content="John Doe">
+    <meta name="version" content="1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #2F4858;
+        }
+        nav li {
+            float: left;
+        }
+        nav li a, nav li button {
+            display: block;
+            color: #D3D6DA;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            background-color: #2F4858;
+            border: none;
+            cursor: pointer;
+        }
+        nav li a:hover, nav li button:hover {
+            background-color: #2F4858;
+            border-radius: 10px;
+            color: #9FA2B2;
+        }
+        footer {
+            background-color: #2F4858;
+            color: #D3D6DA;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><button onclick="window.location.href='functions/Update.html';">Update</button></li>
+            <li><button onclick="window.location.href='functions/I2c.html';">I2C</button></li>
+            <li><button onclick="window.location.href='information.html';">Information</button></li>
+        </ul>
+    </nav>
+
+    <footer>
+        Version: 1.0
+    </footer>
+</body>
+</html>
